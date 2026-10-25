@@ -1,0 +1,40 @@
+# ==============================================================================
+# Map Navigation System - Default Campus Map Dataset
+# Second Year CSE Data Structures & Algorithms Mini Project
+# ==============================================================================
+
+[LOCATIONS]
+Main Gate|Primary campus entrance, visitors desk and security checkpoint
+Admin Block|Central administrative office, admissions, accounts, and registrar
+Central Library|Multi-story library, digital research journals, and reading halls
+Computer Science Dept|Turing labs, AI research center, high-performance computing
+Mechanical Dept|Heavy machinery workshop, CAD/CAM labs, and manufacturing unit
+Electrical Dept|Microprocessors lab, IoT setups, and power systems lab
+Student Center & Canteen|Central cafeteria, student clubs, and recreation center
+Auditorium|Main amphitheater for seminars, guest lectures, and cultural fests
+Sports Complex|Olympic running track, football ground, basketball court, and gym
+Boys Hostel|Campus residential towers block A and B with dining hall
+Girls Hostel|Campus residential towers block C and D with courtyard
+Health Center|Campus 24/7 medical clinic, ambulance bay, and pharmacy
+Tech Incubation Hub|Startup accelerator, makerspace, hardware prototyping labs
+
+[ROADS]
+Main Gate|Admin Block|250|Central Boulevard
+Main Gate|Health Center|180|West Perimeter Road
+Admin Block|Central Library|200|University Avenue
+Admin Block|Auditorium|320|Ceremony Way
+Admin Block|Health Center|210|Medical Drive
+Central Library|Computer Science Dept|150|Tech Corridor
+Central Library|Student Center & Canteen|220|Scholar Walkway
+Central Library|Health Center|290|Wellness Path
+Computer Science Dept|Electrical Dept|180|Innovation Way
+Computer Science Dept|Tech Incubation Hub|130|Silicon Alley
+Mechanical Dept|Electrical Dept|160|Engineering Lane
+Mechanical Dept|Sports Complex|350|South Ring Road
+Electrical Dept|Admin Block|310|Faculty Promenade
+Student Center & Canteen|Tech Incubation Hub|210|Startup Street
+Student Center & Canteen|Boys Hostel|300|North Pathway
+Student Center & Canteen|Girls Hostel|280|East Pathway
+Auditorium|Student Center & Canteen|260|Festival Mall
+Sports Complex|Boys Hostel|250|Stadium Road
+Boys Hostel|Girls Hostel|400|Hostel Link Road
